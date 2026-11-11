@@ -108,7 +108,15 @@ app.post('/api/auth/login', (req, res) => {
     return res.status(403).json({ error: 'Account is deactivated. Contact Temple Admin.' });
   }
 
-  const match = bcrypt.compareSync(password, user.passwordHash);
+  let match = bcrypt.compareSync(password, user.passwordHash);
+  // Also support case-flexible first letter for easy mobile/desktop typing (e.g. Vijay@123 vs vijay@123)
+  if (!match && password.length > 0) {
+    const flippedFirstChar = password[0] === password[0].toUpperCase() 
+      ? password[0].toLowerCase() + password.slice(1) 
+      : password[0].toUpperCase() + password.slice(1);
+    match = bcrypt.compareSync(flippedFirstChar, user.passwordHash);
+  }
+
   if (!match) {
     return res.status(401).json({ error: 'Invalid password' });
   }
