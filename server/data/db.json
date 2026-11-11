@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "templeName": "Sri Vigneshwara Swamy Temple",
+    "currency": "INR",
+    "currencySymbol": "₹",
+    "trustName": "Temple Development & Seva Trust",
+    "registrationNo": "TR-2024/78901",
+    "lastUpdated": "2026-11-11T09:09:13.066Z"
+  },
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "name": "Temple Trustee (Admin)",
+      "phone": "9876543210",
+      "username": "admin",
+      "passwordHash": "$2b$10$BwI7.cyABTq/h0cn2DE.uebxvlold1R8p.Jm5F/HAj4S7LGTrS6eK",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr_mem_2",
+      "name": "Ramesh Babu (Maintenance)",
+      "phone": "9876505678",
+      "username": "ramesh",
+      "passwordHash": "$2b$10$BwI7.cyABTq/h0cn2DE.ueEtcYd2tkSJIGPUjp6mX1Q1ypMH/6uZi",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "usr_mem_1794380128619",
+      "name": "K. Murugesan (Flowers Seva)",
+      "phone": "9840112233",
+      "username": "murugesan",
+      "passwordHash": "$2b$10$w5zIB2umWOmWDGcQaSCzfOtXEddpPqiuC6nRW3m7a9/6.M1.kuqZm",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2026-11-11T06:55:28.748Z"
+    },
+    {
+      "id": "usr_mem_1794382437536",
+      "name": "QA Auto Tester",
+      "phone": "9840998877",
+      "username": "testmem_3967",
+      "passwordHash": "$2b$10$JNKcoIBifMhg79lem9Wuh.NviMoUrKYBm5Lxw8SbX2KgibqflL..e",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2026-11-11T07:33:57.620Z"
+    },
+    {
+      "id": "usr_mem_1794382565076",
+      "name": "Sivath",
+      "phone": "1234567890",
+      "username": "ram",
+      "passwordHash": "$2b$10$yWvNLFhlcl.2iY4TUhOhmuvgzCvNrRAnw4/2L31KtRb4bMFLYPZeO",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2026-11-11T07:36:05.223Z"
+    }
+  ],
+  "funds": [
+    {
+      "id": "fnd_1794387840979",
+      "amount": 123456789,
+      "type": "donation",
+      "title": "Temple Fund Deposit",
+      "donorName": "Temple Trustee",
+      "notes": "",
+      "date": "2026-11-11",
+      "createdBy": "Temple Trustee (Admin)",
+      "createdAt": "2026-11-11T09:04:00.979Z"
+    },
+    {
+      "id": "fnd_1794382437519",
+      "amount": 10000,
+      "type": "donation",
+      "title": "QA Test Inflow",
+      "donorName": "Temple Trustee",
+      "notes": "",
+      "date": "2026-11-11",
+      "createdBy": "Temple Trustee (Admin)",
+      "createdAt": "2026-11-11T07:33:57.519Z"
+    },
+    {
+      "id": "fnd_1",
+      "amount": 150000,
+      "type": "initial",
+      "title": "Temple Treasury Opening Balance",
+      "donorName": "Trust Reserve",
+      "notes": "Opening corpus for annual pooja & maintenance",
+      "date": "2026-01-01",
+      "createdBy": "admin",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "fnd_2",
+      "amount": 25000,
+      "type": "donation",
+      "title": "Special Festival Ubhayam Donation",
+      "donorName": "M. K. Swaminathan & Family",
+      "notes": "For monthly Pradhosham and Annadhanam expenses",
+      "date": "2026-01-15",
+      "createdBy": "admin",
+      "createdAt": "2026-01-15T10:00:00.000Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp_1794388142428",
+      "title": "Expense by Sivath",
+      "amount": 1234567890,
+      "category": "General Expense",
+      "date": "2026-11-11",
+      "billPhotoUrl": "/uploads/bill-1794388142407-788425.jpg",
+      "notes": "",
+      "submittedBy": {
+        "id": "usr_mem_1794382565076",
+        "name": "Sivath",
+        "phone": "1234567890"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T09:09:13.066Z",
+      "rejectionReason": null,
+      "createdAt": "2026-11-11T09:09:02.429Z"
+    },
+    {
+      "id": "exp_1794382931392",
+      "title": "Expense by Suresh Kumar (Pooja Incharge)",
+      "amount": 850,
+      "category": "General Expense",
+      "date": "2026-11-11",
+      "billPhotoUrl": null,
+      "notes": "Purchased Special Jasmine Garlands for Friday Pradosham",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T07:43:25.713Z",
+      "rejectionReason": null,
+      "createdAt": "2026-11-11T07:42:11.392Z"
+    },
+    {
+      "id": "exp_1794382655625",
+      "title": "Expense by Sivath",
+      "amount": 1000,
+      "category": "General Expense",
+      "date": "2026-11-11",
+      "billPhotoUrl": "/uploads/bill-1794382655610-687148.png",
+      "notes": "",
+      "submittedBy": {
+        "id": "usr_mem_1794382565076",
+        "name": "Sivath",
+        "phone": "1234567890"
+      },
+      "status": "REJECTED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T07:37:56.042Z",
+      "rejectionReason": "done",
+      "createdAt": "2026-11-11T07:37:35.625Z"
+    },
+    {
+      "id": "exp_1794382542310",
+      "title": "Expense by Suresh Kumar (Pooja Incharge)",
+      "amount": 18350,
+      "category": "General Expense",
+      "date": "2026-11-11",
+      "billPhotoUrl": null,
+      "notes": "",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T07:35:47.692Z",
+      "rejectionReason": null,
+      "createdAt": "2026-11-11T07:35:42.310Z"
+    },
+    {
+      "id": "exp_1794382437509",
+      "title": "Expense by Suresh Kumar (Pooja Incharge)",
+      "amount": 2500,
+      "category": "General Expense",
+      "date": "2026-11-11",
+      "billPhotoUrl": null,
+      "notes": "",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "REJECTED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T07:33:57.514Z",
+      "rejectionReason": "Test Rejection",
+      "createdAt": "2026-11-11T07:33:57.509Z"
+    },
+    {
+      "id": "exp_1794382437492",
+      "title": "Expense by Suresh Kumar (Pooja Incharge)",
+      "amount": 1200,
+      "category": "General Expense",
+      "date": "2026-11-11",
+      "billPhotoUrl": null,
+      "notes": "",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T07:33:57.504Z",
+      "rejectionReason": null,
+      "createdAt": "2026-11-11T07:33:57.492Z"
+    },
+    {
+      "id": "exp_1794382027009",
+      "title": "Expense by Suresh Kumar (Pooja Incharge)",
+      "amount": 450,
+      "category": "General Expense",
+      "date": "2026-11-11",
+      "billPhotoUrl": "/uploads/bill-1794382026981-972385.png",
+      "notes": "",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T07:27:28.035Z",
+      "rejectionReason": null,
+      "createdAt": "2026-11-11T07:27:07.009Z"
+    },
+    {
+      "id": "exp_1794381943538",
+      "title": "Expense by Suresh Kumar (Pooja Incharge)",
+      "amount": 3200,
+      "category": "General Expense",
+      "date": "2026-11-11",
+      "billPhotoUrl": null,
+      "notes": "",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T07:26:19.397Z",
+      "rejectionReason": null,
+      "createdAt": "2026-11-11T07:25:43.538Z"
+    },
+    {
+      "id": "exp_1794381151465",
+      "title": "Expense by Suresh Kumar (Pooja Incharge)",
+      "amount": 1500,
+      "category": "General Expense",
+      "date": "2026-11-11",
+      "billPhotoUrl": null,
+      "notes": "",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T07:12:31.535Z",
+      "rejectionReason": null,
+      "createdAt": "2026-11-11T07:12:31.465Z"
+    },
+    {
+      "id": "exp_1794380359325",
+      "title": "sivath",
+      "amount": 50000,
+      "category": "Flowers & Garlands",
+      "date": "2026-11-11",
+      "billPhotoUrl": null,
+      "notes": "",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T06:59:35.180Z",
+      "rejectionReason": null,
+      "createdAt": "2026-11-11T06:59:19.325Z"
+    },
+    {
+      "id": "exp_1794380114877",
+      "title": "Camphor, Ghee & Agarbatti",
+      "amount": 2000,
+      "category": "Pooja & Rituals",
+      "date": "2026-02-01",
+      "billPhotoUrl": null,
+      "notes": "Purchased for Monthly Sangadahara Chathurthi",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T06:55:14.945Z",
+      "rejectionReason": null,
+      "createdAt": "2026-11-11T06:55:14.877Z"
+    },
+    {
+      "id": "exp_1",
+      "title": "Special Abhishekam Flowers & Garland",
+      "amount": 3500,
+      "category": "Pooja & Rituals",
+      "date": "2026-01-18",
+      "billPhotoUrl": null,
+      "notes": "Jasmine garlands and lotus flowers for Sunday special pooja",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-01-19T09:30:00.000Z",
+      "rejectionReason": null,
+      "createdAt": "2026-01-18T18:00:00.000Z"
+    },
+    {
+      "id": "exp_2",
+      "title": "Main Sanctum Lighting & Electrical Repairs",
+      "amount": 4800,
+      "category": "Temple Maintenance",
+      "date": "2026-01-22",
+      "billPhotoUrl": null,
+      "notes": "Replaced 4 LED spotlight fixtures and breaker wire",
+      "submittedBy": {
+        "id": "usr_mem_2",
+        "name": "Ramesh Babu (Maintenance)",
+        "phone": "9876505678"
+      },
+      "status": "APPROVED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-01-23T11:00:00.000Z",
+      "rejectionReason": null,
+      "createdAt": "2026-01-22T16:30:00.000Z"
+    },
+    {
+      "id": "exp_3",
+      "title": "Annadhanam Grocery & Cooking Provisions",
+      "amount": 6200,
+      "category": "Annadhanam",
+      "date": "2026-01-28",
+      "billPhotoUrl": null,
+      "notes": "Rice bag, dhal, ghee and vegetables for Pournami feast",
+      "submittedBy": {
+        "id": "usr_mem_1",
+        "name": "Suresh Kumar (Pooja Incharge)",
+        "phone": "9876501234"
+      },
+      "status": "REJECTED",
+      "reviewedBy": "Temple Trustee (Admin)",
+      "reviewDate": "2026-11-11T06:55:21.555Z",
+      "rejectionReason": "Bill already reimbursed directly by donor",
+      "createdAt": "2026-01-28T19:00:00.000Z"
+    }
+  ],
+  "categories": [
+    "Pooja & Rituals",
+    "Temple Maintenance",
+    "Annadhanam",
+    "Electricity & Utilities",
+    "Flowers & Garlands",
+    "Sound & Events",
+    "Miscellaneous"
+  ]
+}
